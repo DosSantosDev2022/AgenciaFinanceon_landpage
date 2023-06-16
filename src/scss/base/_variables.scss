@@ -1,0 +1,54 @@
+//Cores de fundo
+$bg-color-1: #23A6F0;
+$bg-color-2: #FFFFFF;
+$bg-color-3: #252B42;
+$bg-color-4: #8EC2F2;
+$bg-color-5: #2DC071;
+// Cores de textos
+$text-color-1: #23A6F0;
+$text-color-2: #FFFFFF;
+$text-color-3: #252B42;
+$text-color-4: #8EC2F2;
+$text-color-5: #2DC071;
+$text-color-6: #F3CD03;
+$text-color-7: #737373;
+// cores de bordas
+$border-color-1: #E6E6E6;
+$border-color-2: #FFFFFF;
+$border-color-3: #252B42;
+$border-color-4: #8EC2F2;
+// Cores do houver
+$houver-color-1: #23A6F0;
+$houver-color-2: #FFFFFF;
+$houver-color-3: #252B42;
+$houver-color-4: #8EC2F2;
+
+// Cores gradiente
+$gradient-01: linear-gradient(to right, #D71489, #004788);
+$gradient-02: radial-gradient(circle, #D71489, #004788);
+
+$theme-colors:(
+  "bg-color-1": $bg-color-1,
+  "bg-color-2": $bg-color-2,
+  "bg-color-3": $bg-color-3,
+  "bg-color-4": $bg-color-4,
+  "bg-color-5": $bg-color-5,
+  "text-color-1": $text-color-1,
+  "text-color-2": $text-color-2,
+  "text-color-3": $text-color-3,
+  "text-color-4": $text-color-4,
+  "text-color-5": $text-color-5,
+  "text-color-6": $text-color-6,
+  "text-color-7": $text-color-7,
+  "border-color-1": $border-color-1,
+  "border-color-2": $border-color-2,
+  "border-color-3": $border-color-3,
+  "border-color-4": $border-color-4,
+  "houver-color-1": $houver-color-1,
+  "houver-color-2": $houver-color-2,
+  "houver-color-3": $houver-color-3,
+  "houver-color-4": $houver-color-4,
+  "gradient-01": $gradient-01,
+  "gradient-02": $gradient-02,
+);
+

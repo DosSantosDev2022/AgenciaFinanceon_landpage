@@ -1,0 +1,6 @@
+@mixin Displayflex($display,$direction, $justify-content, $align-items) {
+  display: $display;
+  flex-direction: $direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+} // contém os parametros para aplicar display flex no elemento

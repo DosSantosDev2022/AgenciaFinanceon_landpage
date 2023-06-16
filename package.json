@@ -1,0 +1,11 @@
+{
+  "name": "agenciafinanceon_landpage",
+  "version": "1.0.0",
+  "description": "Agencia do mercado financeiro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DosSantosDev",
+  "license": "ISC"
+}

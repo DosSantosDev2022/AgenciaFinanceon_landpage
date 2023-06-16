@@ -1,0 +1,19 @@
+// IMPORTAÇÃO DOS ARQUIVOS SCSS
+
+//AUTOLOAD (Arquivos de terceiros usados no projeto)
+@import 'autoload/fonts';
+//BASE (Arquivos globais usados no projeto)
+@import 'base/reset';
+@import 'base/variables';
+//COMPONENTS (Elementos reutilizaveis do projeto)
+
+//CORE (Arquivos que contem funções e mixins)
+@import 'core/functions/px-to-rem';
+@import 'core/mixins/displayflex';
+
+//LAYOUT (Arquivos de estilos gerais do projeto)
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+
+//PAGES (Estilos de todas as páginas do projeto)

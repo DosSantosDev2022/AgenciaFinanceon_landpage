@@ -1,0 +1,159 @@
+header{
+  background-image: url(/src/img/banners/background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  .container{
+    width: 100%;
+    height: px-to-rem(91px);
+    @include Displayflex(flex,row,space-around,center);
+    padding: px-to-rem(16px);
+    .logo{
+      h1{
+        font-size: px-to-rem(34px);
+        font-weight: 700;
+        color: $text-color-2; 
+      }
+    }
+    .navbar{
+      .navbar__list{
+        @include Displayflex(flex,row,space-around,center);
+        gap: px-to-rem(21px);
+        .navbar__links{
+          .link{
+            font-size: px-to-rem(14px);
+            font-weight: 600;
+            color: $text-color-2;
+          }
+        }
+      }
+    }
+    .menu__mobile{
+      display: none;
+      .fa-bars{
+        font-size: px-to-rem(30px);
+        color: $text-color-2;
+      }
+      
+    }
+    .navbar__icons{
+      @include Displayflex(flex,row,center,center);
+      gap: px-to-rem(20px);
+      .link__icon{
+        font-size: px-to-rem(14px);
+        font-weight: 700;
+        color: $text-color-2;
+        background-color: $bg-color-1;
+        padding: px-to-rem(15px);
+        border-radius: px-to-rem(5px);
+      }
+    }
+  }
+  .container__center{
+    width: 100%;
+    @include Displayflex(flex,row,center,center);
+    padding: px-to-rem(5px);
+    .text{
+      width: 50%;
+      padding: px-to-rem(5px);
+      h2{
+        width: 100%;
+        font-size: px-to-rem(58px);
+        font-weight: 700;
+        color: $text-color-2;
+        margin-top: px-to-rem(18px)
+      }
+      p{
+        width: 100%;
+        font-size: px-to-rem(20px);
+        font-weight: 500;
+        color: $text-color-2;
+        margin-top: px-to-rem(18px)
+      }
+      .btn__links{
+        @include Displayflex(flex,row,start,center);
+        gap: px-to-rem(10px);
+        margin-top: px-to-rem(35px);
+        a{
+          padding: px-to-rem(15px);
+          background-color: $bg-color-1;
+          color: $text-color-2;
+          font-size: px-to-rem(14px);
+          font-weight: 700;
+          border-radius: px-to-rem(37px);
+        }
+        .active{
+          background-color: transparent;
+          border: 1px solid $border-color-2;
+        }
+      }
+    }
+    .imagem{
+      @include Displayflex(flex,row,center,end);
+      padding: px-to-rem(5px);
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .navbar__mobile{
+    display: none;
+  }
+}
+
+// BreakPoints
+
+@media screen and (max-width:900px) {
+    header{
+      .container{
+        background-color: $bg-color-3;
+        @include Displayflex(flex,row,space-around,center);
+        gap: 2rem;
+        .navbar{
+          display: none;
+        }
+        .navbar__icons{
+          display: none;
+        }
+        .menu__mobile{
+          width: 50px;
+          display: block;
+        }
+      }
+      .container__mobile{
+        width: 100%;
+        .navbar__mobile{
+          display: none;
+        }
+        .navbar__mobile.active{
+          text-align: center;
+          display: block;
+          width: 100%;
+          height: 250px;
+          background-color: $bg-color-3;
+          padding: px-to-rem(15px);
+          z-index: 999;
+          .navbar__list{
+            @include Displayflex(flex,column,center,center);
+            gap: px-to-rem(30px);
+            .navbar__links{
+              .link{
+                font-size: px-to-rem(20px);
+                font-weight: 500;
+                color: $text-color-2;
+              }
+            }
+          }
+        }
+      }
+      .container__center{
+        flex-direction: column;
+        .text{
+          width: 80%;
+          text-align: center;
+          .btn__links{
+            justify-content: center;
+          }
+        }
+      }
+    }
+}
