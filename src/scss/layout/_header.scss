@@ -51,7 +51,7 @@ header{
   .container__center{
     width: 100%;
     @include Displayflex(flex,row,center,center);
-    padding: px-to-rem(5px);
+   
     .text{
       width: 50%;
       padding: px-to-rem(5px);
@@ -89,7 +89,7 @@ header{
     }
     .imagem{
       @include Displayflex(flex,row,center,end);
-      padding: px-to-rem(5px);
+   
       img{
         width: 100%;
       }

@@ -72,7 +72,6 @@ header .container__center {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0.3125rem;
 }
 header .container__center .text {
   width: 50%;
@@ -117,7 +116,6 @@ header .container__center .imagem {
   flex-direction: row;
   justify-content: center;
   align-items: end;
-  padding: 0.3125rem;
 }
 header .container__center .imagem img {
   width: 100%;
@@ -357,7 +355,7 @@ main .container__fluid3 .container__small3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 main .container__fluid3 .container__small3 .container__img .logo01 {
@@ -368,7 +366,7 @@ main .container__fluid3 .container__small3 .container__img .logo02 {
 }
 main .container__fluid3 .container__small3 .container__form {
   padding: 30px 50px 30px 50px;
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -391,7 +389,7 @@ main .container__fluid3 .container__small3 .container__form .form {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
 }
 main .container__fluid3 .container__small3 .container__form .form input {
   width: 100%;
@@ -439,9 +437,10 @@ main .container__fluid4 .container__small4 .row__01 h3 {
   color: #FFFFFF;
 }
 main .container__fluid4 .container__small4 .row__01 p {
-  font-size: 0.875rem;
-  font-weight: 500;
+  font-size: 1.125rem;
+  font-weight: 300;
   color: #FFFFFF;
+  margin-top: 0.9375rem;
 }
 main .container__fluid4 .container__small4 .row__02 {
   width: 100%;
@@ -476,9 +475,9 @@ main .container__fluid4 .container__small4 .row__02 .card .card__title h3 {
   font-weight: 700;
   color: #252B42;
 }
-main .container__fluid4 .container__small4 .row__02 .card .card__title p {
-  font-size: 1rem;
-  font-weight: 700;
+main .container__fluid4 .container__small4 .row__02 .card .card__title h6 {
+  font-size: 1.125rem;
+  font-weight: 500;
   color: #737373;
 }
 main .container__fluid4 .container__small4 .row__02 .card .card__value {
@@ -669,7 +668,7 @@ footer .container .container__links .columns .list {
 }
 footer .container .container__links .columns .list h6 {
   font-size: 1.0625rem;
-  color: #FFFFFF;
+  color: #23A6F0;
   font-weight: 700;
 }
 footer .container .container__links .columns .list li a {
@@ -719,7 +718,7 @@ footer .footer__social .social__container .icons .fa-youtube {
   color: #E42F08;
 }
 footer .footer__social .social__container .icons .fa-brands {
-  font-size: 1.25rem;
+  font-size: 1.5625rem;
 }
 
 @media screen and (max-width: 900px) {

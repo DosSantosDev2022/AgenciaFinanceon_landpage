@@ -149,7 +149,7 @@ main{
     background-color: $bg-color-3;
     .container__small3{
       @include Displayflex(flex,column,center,center);
-      width: 80%;
+      width: 100%;
       margin: 0 auto;
       .container__img{
         .logo01{
@@ -161,7 +161,7 @@ main{
       }
       .container__form{
         padding: 30px 50px 30px 50px;
-        width: 80%;
+        width: 100%;
         @include Displayflex(flex,row,center,center);
         gap: px-to-rem(240px);
         height: px-to-rem(124px);
@@ -177,7 +177,7 @@ main{
         }
         .form{
           @include Displayflex(flex,row,center,center);
-          width: 100%;
+          width: 80%;
           input{
             width: 100%;
             height: px-to-rem(58px);
@@ -222,9 +222,10 @@ main{
           color: $text-color-2;
         }
         p{
-          font-size: px-to-rem(14px);
-          font-weight: 500;
+          font-size: px-to-rem(18px);
+          font-weight: 300;
           color: $text-color-2;
+          margin-top: px-to-rem(15px);
         }
       }
       .row__02{
@@ -248,9 +249,9 @@ main{
               font-weight: 700;
               color: $text-color-3;
             }
-            p{
-              font-size: px-to-rem(16px);
-              font-weight: 700;
+            h6{
+              font-size: px-to-rem(18px);
+              font-weight: 500;
               color: $text-color-7;
             }
           }
